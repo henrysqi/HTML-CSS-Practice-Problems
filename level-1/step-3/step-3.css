@@ -1,17 +1,25 @@
 /* Step-3.1  Not much to do here except add a width */
 .content-mid-header {
     background: #444;
+		width: 500px;
+		height: 80px;
 }
 
 
 /* Step-3.3 add a margin top to give this container some space. Also your going to want to set the  margin-left and margin-right to auto. This will give equal distance left and right to the container. Essentially centering the container   */
 .content-container {
- background: #D8D8D8;
+ 		background: #D8D8D8;
+ 		width: 500px;
+		height: 600px;
+		position: absolute;
+		margin: 50px 0 0 70px;
 }
 
 
 /* Step-3.2  Remember to add some padding and text-align*/
 
 .content {
-
+		position: absolute;
+		margin: 125px 20px;
+		text-align: center;
 }
