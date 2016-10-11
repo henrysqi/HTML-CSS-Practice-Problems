@@ -3,25 +3,30 @@
 .main-bottom-section {
     margin-top: 65px;
    /* alignment property */
-
+		text-align: center;
 }
 
 /* Step-2.2 Add a width, height and display property to make these containers look like the design */
 .item {
    /*width*/
+		width: 42.5vw;
     /*height*/
+		height: 230px;
     /*display*/
+		display: inline-block;
     background: #DED6D3;
-    margin-bottom: 30px;
+    margin: 2.5% ;
 }
 
 /* Step-2.3 Add a width, height and margin property to make these containers look like the design. Remember margin: auto is helpful when trying to center a container*/
 
 .full-width-item {
     /*width*/
+		width: 90vw;
     /*height*/
+		height: 150px;
     /*margin*/
-    margin:0 auto 30px;
+    margin: 0 auto;
     background: #DED6D3;
 }
 
@@ -30,8 +35,11 @@
 
 .large-item {
     /*width*/
+		width: 90vw;
     /*height*/
+		height: 500px;
     /*margin*/
+		margin: 2.5% auto 0;
     background: #DED6D3;
 }
 
